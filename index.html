@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scrolling - Hard Fest</title>
+    <link rel="stylesheet" type="text/css">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            font-family: arial;
+        }
+
+        h1,
+        h2,
+        H3,
+        H4,
+        H5,
+        H6,
+        p {
+            margin-bottom: 20px;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            background-color: rgba(0, 0, 0, .5);
+            z-index: 99;
+            /*text-align: center;*/
+            letter-spacing: 3px;
+        }
+
+        nav a {
+            margin-left: 30px;
+            text-decoration: none;
+            line-height: 50px;
+            color: white;
+        }
+
+        .title {
+            margin-left: 30px;
+            text-decoration: none;
+            line-height: 50px;
+            color: purple;
+            letter-spacing: 3px;
+        }
+
+        span,
+        #demo {
+            float: right;
+            margin-right: 30px;
+            text-decoration: none;
+            line-height: 50px;
+            color: white;
+        }
+
+        .sect {
+            height: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .subsection {
+            height: 80%;
+            background: white;
+        }
+
+        .sectOne {
+            background-image: url("http://hustletv.tv/wp-content/uploads/2017/05/HARD-Summer-Music-Festival-HustleTV-Snoop-Dogg-.jpg");
+        }
+
+        .sectTwo {
+            background-image: url("http://cdn.youredm.com/wp-content/uploads/2016/08/hard-summer-2016-people_oh-dag-yo.jpg?x98358");
+        }
+
+        .sectThree {
+            background-image: url("https://tribktla.files.wordpress.com/2015/08/screen-shot-2015-08-03-at-8-12-59-am.png?w=1200");
+        }
+
+        .sectFour {
+            background-image: url("http://cdn.youredm.com/wp-content/uploads/2016/09/rezz2-1400x600.jpeg?x98358");
+        }
+
+         .left{
+             float:left; 
+             width:30%;
+            margin-left: 30px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover . {
+    background-color: #3e8e41;
+}
+
+    .dropbtn{
+    width: 190px;
+    }
+
+
+.tiximg{
+    width: 190px;
+    height: 120px;
+
+}
+
+#abouttext {
+                margin-left: 30px;
+                margin-right: 50px;
+
+}
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#lineup">LINEUP</a>
+        <a href="#tix">TICKETS</a>
+        <a href="#">CONTACT </a>
+
+        <span>Days til festival: <p id="demo"> </p> </span>
+        <!-- Display the countdown timer in an element -->
+
+    </nav>
+    <div class="sect sectOne"></div>
+    <div class="sect sectTwo"></div>
+    <div class="subsection" id="lineup">
+        <h3 class="title">LINEUP</h3>
+        <p id="abouttext">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+
+
+
+
+        </p>
+    </div>
+    <div class="sect sectThree"></div>
+    <div class="sect sectFour"></div>
+    <div class="subsection" id="tix">
+        <h3 class="title">TICKETS</h3>
+
+
+
+<div class="left dropdown">
+    <img class="tiximg" src="https://www.wgsn.com/blogs/wp-content/uploads/2015/08/E52B3748-1024x683.jpg"><p>
+    <button class="dropbtn">DAY PASS</button></p>
+  <div class="dropdown-content">
+    <a href="#">GA</a>
+    <a href="#">VIP</a>
+  </div>
+</div>
+<div class="left dropdown">
+        <img class="tiximg" src="https://kawaiikanae.files.wordpress.com/2015/01/aussie-dresses-festival-friends-gilrs-favim-com-136659.jpg"><p>
+    <button class="dropbtn">WEEKEND PASS</button></p>
+  <div class="dropdown-content">
+ <a href="#">GA</a>
+    <a href="#">VIP</a>
+  </div>
+  </div>
+<div class="left dropdown">
+        <img class="tiximg" src="https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2015/03/mens-street-style-festival-camping-1170x600.jpg"><p>
+        <button class="dropbtn">CAMPING</button></p>
+  <div class="dropdown-content">
+    <a href="#">BUY 1</a>
+    <a href="#">BUY 2</a>
+  </div>
+</div>
+
+
+    </div>
+</body>
+
+
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 5, 2017 12:00:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+            + minutes + "M " + seconds + "S ";
+
+        // If the count down is finished, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "See you at the festival!";
+        }
+    }, 1000);
+
+</script>
+
+</html>
